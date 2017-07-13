@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0D352E192A845E00E18724 /* Gold.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D352C192A845E00E18724 /* Gold.sks */; };
+		4C18E62A192A9EBD00D808C8 /* BoulderDust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C18E628192A9EBD00D808C8 /* BoulderDust.sks */; };
+		4C18E62B192A9EBD00D808C8 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C18E629192A9EBD00D808C8 /* spark.png */; };
+		4C2546A2193922A100A52123 /* ManSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C2546A1193922A100A52123 /* ManSound.wav */; };
+		4C2546A419392E1400A52123 /* NewSwoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C2546A319392E1400A52123 /* NewSwoosh.wav */; };
+		4C2546A61939372D00A52123 /* HatSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C2546A51939372D00A52123 /* HatSound.wav */; };
+		4C274EA0192578F50028A759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274E9F192578F50028A759 /* Foundation.framework */; };
+		4C274EA2192578F50028A759 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274EA1192578F50028A759 /* CoreGraphics.framework */; };
+		4C274EA4192578F50028A759 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274EA3192578F50028A759 /* UIKit.framework */; };
+		4C274EA6192578F50028A759 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274EA5192578F50028A759 /* SpriteKit.framework */; };
+		4C274EAC192578F50028A759 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EAA192578F50028A759 /* InfoPlist.strings */; };
+		4C274EAE192578F50028A759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C274EAD192578F50028A759 /* main.m */; };
+		4C274EB2192578F50028A759 /* MEMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C274EB1192578F50028A759 /* MEMAppDelegate.m */; };
+		4C274EB5192578F50028A759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EB3192578F50028A759 /* Main.storyboard */; };
+		4C274EB8192578F50028A759 /* MEMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C274EB7192578F50028A759 /* MEMViewController.m */; };
+		4C274EBB192578F50028A759 /* MEMMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C274EBA192578F50028A759 /* MEMMyScene.m */; };
+		4C274EBF192578F50028A759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EBE192578F50028A759 /* Images.xcassets */; };
+		4C274EC6192578F50028A759 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274EC5192578F50028A759 /* XCTest.framework */; };
+		4C274EC7192578F50028A759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274E9F192578F50028A759 /* Foundation.framework */; };
+		4C274EC8192578F50028A759 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C274EA3192578F50028A759 /* UIKit.framework */; };
+		4C274ED0192578F50028A759 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C274ECE192578F50028A759 /* InfoPlist.strings */; };
+		4C274ED2192578F50028A759 /* TopDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C274ED1192578F50028A759 /* TopDropTests.m */; };
+		4C274EDD192579C90028A759 /* Artboard 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EDB192579C90028A759 /* Artboard 1.png */; };
+		4C274EDE192579C90028A759 /* Artboard 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EDC192579C90028A759 /* Artboard 1@2x.png */; };
+		4C2F60A2197EDFB6005977DA /* MEMTutorialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F60A1197EDFB6005977DA /* MEMTutorialScene.m */; };
+		4C39F4C119782ED300494CC1 /* tntHud.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C39F4C019782ED300494CC1 /* tntHud.atlas */; };
+		4C44172A19756FE600ED0E22 /* TNT.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C44172919756FE600ED0E22 /* TNT.atlas */; };
+		4C51154019808F1D00069663 /* MEMMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51153F19808F1D00069663 /* MEMMenuScene.m */; };
+		4C5115431980A36D00069663 /* MEMSpriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5115421980A36D00069663 /* MEMSpriteButton.m */; };
+		4C5A0CB91982E0D000E01CDD /* sign.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C5A0CB81982E0D000E01CDD /* sign.atlas */; };
+		4C5DDDBF1935181300D913FA /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DDDBB1935181300D913FA /* CHANGELOG.md */; };
+		4C5DDDC01935181300D913FA /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDBD1935181300D913FA /* libChartboost.a */; };
+		4C5DDDC11935181400D913FA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DDDBE1935181300D913FA /* README.md */; };
+		4C5DDDC31935185800D913FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDC21935185800D913FA /* QuartzCore.framework */; };
+		4C5DDDC51935186A00D913FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDC41935186900D913FA /* SystemConfiguration.framework */; };
+		4C5DDDC71935188300D913FA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDC61935188300D913FA /* AdSupport.framework */; };
+		4C5DDDC91935188D00D913FA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDC81935188D00D913FA /* StoreKit.framework */; };
+		4C5DDDCB1935189A00D913FA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDCA1935189A00D913FA /* CoreMedia.framework */; };
+		4C5DDDCD193518A300D913FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDCC193518A300D913FA /* AVFoundation.framework */; };
+		4C5DDDCF193518AC00D913FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DDDCE193518AC00D913FA /* CoreData.framework */; };
+		4C5DDDDE193639BA00D913FA /* BG_noSign.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DDDDC193639BA00D913FA /* BG_noSign.png */; };
+		4C5DDDDF193639BA00D913FA /* BG_noSign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DDDDD193639BA00D913FA /* BG_noSign@2x.png */; };
+		4C7EDD8D1971A672004E6C92 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7EDD8C1971A672004E6C92 /* MediaPlayer.framework */; };
+		4C7EDDD2197305E9004E6C92 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C7EDDD1197305E9004E6C92 /* explosion.sks */; };
+		4C7EDDD419730E7C004E6C92 /* ExplosionSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C7EDDD319730E7C004E6C92 /* ExplosionSound.wav */; };
+		4C7F120F198154D00045F3B7 /* MEMGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F120E198154D00045F3B7 /* MEMGameOverScene.m */; };
+		4C7F1212198157130045F3B7 /* MEMStoreScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F1211198157130045F3B7 /* MEMStoreScene.m */; };
+		4C7F121719818A4A0045F3B7 /* MEMMainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C74D0DB1933850800B04D61 /* MEMMainMenuScene.m */; };
+		4C9664CD1957B66600303356 /* MEMShareScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9664CC1957B66600303356 /* MEMShareScene.m */; };
+		4C9664CF1957C21600303356 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9664CE1957C21600303356 /* Social.framework */; };
+		4CAAC7A91937CF6600F64654 /* GameOverSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAC7A81937CF6600F64654 /* GameOverSound.wav */; };
+		4CAAC7AB1937E96500F64654 /* GoldSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAC7AA1937E96500F64654 /* GoldSound.wav */; };
+		4CAAC7AE1937EB3000F64654 /* RockSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAC7AD1937EB3000F64654 /* RockSound.wav */; };
+		4CB06F07192F95E600A029AB /* MEMGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB06F06192F95E600A029AB /* MEMGameData.m */; };
+		4CB13491198ACAA6001FF62F /* ClickSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CB13490198ACAA6001FF62F /* ClickSound.wav */; };
+		4CB13493198ACE8A001FF62F /* AxeSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CB13492198ACE8A001FF62F /* AxeSound.wav */; };
+		4CB13496198AD629001FF62F /* tutorial.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CB13495198AD629001FF62F /* tutorial.atlas */; };
+		4CB13498198AD885001FF62F /* GameObjects.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CB13497198AD885001FF62F /* GameObjects.atlas */; };
+		4CC80AA3192695F200409536 /* z_r.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CC80AA2192695F200409536 /* z_r.atlas */; };
+		4CCC78A119299A12005061AE /* rHat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC78A019299A12005061AE /* rHat.atlas */; };
+		4CE81EE219314B0C0065D696 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE81EE119314B0C0065D696 /* GameKit.framework */; };
+		4CE81EE519314C870065D696 /* MEMGameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE81EE419314C870065D696 /* MEMGameKitHelper.m */; };
+		4CE81EE8193153E10065D696 /* MEMTDNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE81EE7193153E10065D696 /* MEMTDNavigationControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C274EC9192578F50028A759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C274E94192578F50028A759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C274E9B192578F50028A759;
+			remoteInfo = TopDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0A72651987E370000BE53A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		4C0D352C192A845E00E18724 /* Gold.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Gold.sks; sourceTree = "<group>"; };
+		4C0D352D192A845E00E18724 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		4C18E628192A9EBD00D808C8 /* BoulderDust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoulderDust.sks; path = TopDrop/BoulderDust.sks; sourceTree = "<group>"; };
+		4C18E629192A9EBD00D808C8 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = TopDrop/spark.png; sourceTree = "<group>"; };
+		4C2546A1193922A100A52123 /* ManSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ManSound.wav; sourceTree = "<group>"; };
+		4C2546A319392E1400A52123 /* NewSwoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NewSwoosh.wav; sourceTree = "<group>"; };
+		4C2546A51939372D00A52123 /* HatSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HatSound.wav; sourceTree = "<group>"; };
+		4C274E9C192578F50028A759 /* TopDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C274E9F192578F50028A759 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C274EA1192578F50028A759 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C274EA3192578F50028A759 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C274EA5192578F50028A759 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4C274EA9192578F50028A759 /* TopDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopDrop-Info.plist"; sourceTree = "<group>"; };
+		4C274EAB192578F50028A759 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C274EAD192578F50028A759 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C274EAF192578F50028A759 /* TopDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopDrop-Prefix.pch"; sourceTree = "<group>"; };
+		4C274EB0192578F50028A759 /* MEMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMAppDelegate.h; sourceTree = "<group>"; };
+		4C274EB1192578F50028A759 /* MEMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMAppDelegate.m; sourceTree = "<group>"; };
+		4C274EB4192578F50028A759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C274EB6192578F50028A759 /* MEMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMViewController.h; sourceTree = "<group>"; };
+		4C274EB7192578F50028A759 /* MEMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMViewController.m; sourceTree = "<group>"; };
+		4C274EB9192578F50028A759 /* MEMMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyScene.h; sourceTree = "<group>"; };
+		4C274EBA192578F50028A759 /* MEMMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyScene.m; sourceTree = "<group>"; };
+		4C274EBE192578F50028A759 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C274EC4192578F50028A759 /* TopDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C274EC5192578F50028A759 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C274ECD192578F50028A759 /* TopDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopDropTests-Info.plist"; sourceTree = "<group>"; };
+		4C274ECF192578F50028A759 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C274ED1192578F50028A759 /* TopDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopDropTests.m; sourceTree = "<group>"; };
+		4C274EDB192579C90028A759 /* Artboard 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1.png"; sourceTree = "<group>"; };
+		4C274EDC192579C90028A759 /* Artboard 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1@2x.png"; sourceTree = "<group>"; };
+		4C2F60A0197EDFB6005977DA /* MEMTutorialScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMTutorialScene.h; path = ../MEMTutorialScene.h; sourceTree = "<group>"; };
+		4C2F60A1197EDFB6005977DA /* MEMTutorialScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMTutorialScene.m; path = ../MEMTutorialScene.m; sourceTree = "<group>"; };
+		4C39F4C019782ED300494CC1 /* tntHud.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = tntHud.atlas; sourceTree = "<group>"; };
+		4C44172919756FE600ED0E22 /* TNT.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = TNT.atlas; sourceTree = "<group>"; };
+		4C51153E19808F1D00069663 /* MEMMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMMenuScene.h; sourceTree = "<group>"; };
+		4C51153F19808F1D00069663 /* MEMMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMMenuScene.m; sourceTree = "<group>"; };
+		4C5115411980A36D00069663 /* MEMSpriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMSpriteButton.h; path = TopDrop/MEMSpriteButton.h; sourceTree = "<group>"; };
+		4C5115421980A36D00069663 /* MEMSpriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMSpriteButton.m; path = TopDrop/MEMSpriteButton.m; sourceTree = "<group>"; };
+		4C5A0CB81982E0D000E01CDD /* sign.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sign.atlas; sourceTree = "<group>"; };
+		4C5DDDBA1935181300D913FA /* CBMoreAppsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMoreAppsButton.h; sourceTree = "<group>"; };
+		4C5DDDBB1935181300D913FA /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		4C5DDDBC1935181300D913FA /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
+		4C5DDDBD1935181300D913FA /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
+		4C5DDDBE1935181300D913FA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4C5DDDC21935185800D913FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C5DDDC41935186900D913FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4C5DDDC61935188300D913FA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4C5DDDC81935188D00D913FA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4C5DDDCA1935189A00D913FA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4C5DDDCC193518A300D913FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C5DDDCE193518AC00D913FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C5DDDDC193639BA00D913FA /* BG_noSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG_noSign.png; sourceTree = "<group>"; };
+		4C5DDDDD193639BA00D913FA /* BG_noSign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG_noSign@2x.png"; sourceTree = "<group>"; };
+		4C74D0DA1933850800B04D61 /* MEMMainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMMainMenuScene.h; path = TopDrop/MEMMainMenuScene.h; sourceTree = "<group>"; };
+		4C74D0DB1933850800B04D61 /* MEMMainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMMainMenuScene.m; path = TopDrop/MEMMainMenuScene.m; sourceTree = "<group>"; };
+		4C7EDD8C1971A672004E6C92 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C7EDDD1197305E9004E6C92 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		4C7EDDD319730E7C004E6C92 /* ExplosionSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ExplosionSound.wav; sourceTree = "<group>"; };
+		4C7F120D198154D00045F3B7 /* MEMGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMGameOverScene.h; sourceTree = "<group>"; };
+		4C7F120E198154D00045F3B7 /* MEMGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMGameOverScene.m; sourceTree = "<group>"; };
+		4C7F1210198157130045F3B7 /* MEMStoreScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMStoreScene.h; sourceTree = "<group>"; };
+		4C7F1211198157130045F3B7 /* MEMStoreScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMStoreScene.m; sourceTree = "<group>"; };
+		4C9664CB1957B66600303356 /* MEMShareScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMShareScene.h; path = TopDrop/MEMShareScene.h; sourceTree = "<group>"; };
+		4C9664CC1957B66600303356 /* MEMShareScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMShareScene.m; path = TopDrop/MEMShareScene.m; sourceTree = "<group>"; };
+		4C9664CE1957C21600303356 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4CAAC7A81937CF6600F64654 /* GameOverSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOverSound.wav; sourceTree = "<group>"; };
+		4CAAC7AA1937E96500F64654 /* GoldSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GoldSound.wav; sourceTree = "<group>"; };
+		4CAAC7AD1937EB3000F64654 /* RockSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RockSound.wav; sourceTree = "<group>"; };
+		4CB06F05192F95E600A029AB /* MEMGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMGameData.h; sourceTree = "<group>"; };
+		4CB06F06192F95E600A029AB /* MEMGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMGameData.m; sourceTree = "<group>"; };
+		4CB13490198ACAA6001FF62F /* ClickSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ClickSound.wav; sourceTree = "<group>"; };
+		4CB13492198ACE8A001FF62F /* AxeSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AxeSound.wav; sourceTree = "<group>"; };
+		4CB13495198AD629001FF62F /* tutorial.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = tutorial.atlas; sourceTree = "<group>"; };
+		4CB13497198AD885001FF62F /* GameObjects.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GameObjects.atlas; sourceTree = "<group>"; };
+		4CC80AA2192695F200409536 /* z_r.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = z_r.atlas; sourceTree = "<group>"; };
+		4CCC78A019299A12005061AE /* rHat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = rHat.atlas; sourceTree = "<group>"; };
+		4CDB2502192BA92F000644CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4CE81EE119314B0C0065D696 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		4CE81EE319314C870065D696 /* MEMGameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMGameKitHelper.h; sourceTree = "<group>"; };
+		4CE81EE419314C870065D696 /* MEMGameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMGameKitHelper.m; sourceTree = "<group>"; };
+		4CE81EE6193153E10065D696 /* MEMTDNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMTDNavigationControllerViewController.h; path = ../MEMTDNavigationControllerViewController.h; sourceTree = "<group>"; };
+		4CE81EE7193153E10065D696 /* MEMTDNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMTDNavigationControllerViewController.m; path = ../MEMTDNavigationControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C274E99192578F50028A759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7EDD8D1971A672004E6C92 /* MediaPlayer.framework in Frameworks */,
+				4C9664CF1957C21600303356 /* Social.framework in Frameworks */,
+				4C5DDDCF193518AC00D913FA /* CoreData.framework in Frameworks */,
+				4C5DDDCD193518A300D913FA /* AVFoundation.framework in Frameworks */,
+				4C5DDDCB1935189A00D913FA /* CoreMedia.framework in Frameworks */,
+				4C5DDDC91935188D00D913FA /* StoreKit.framework in Frameworks */,
+				4C5DDDC71935188300D913FA /* AdSupport.framework in Frameworks */,
+				4C274EA2192578F50028A759 /* CoreGraphics.framework in Frameworks */,
+				4C5DDDC51935186A00D913FA /* SystemConfiguration.framework in Frameworks */,
+				4C5DDDC31935185800D913FA /* QuartzCore.framework in Frameworks */,
+				4C274EA4192578F50028A759 /* UIKit.framework in Frameworks */,
+				4C274EA6192578F50028A759 /* SpriteKit.framework in Frameworks */,
+				4C274EA0192578F50028A759 /* Foundation.framework in Frameworks */,
+				4C5DDDC01935181300D913FA /* libChartboost.a in Frameworks */,
+				4CE81EE219314B0C0065D696 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C274EC1192578F50028A759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C274EC6192578F50028A759 /* XCTest.framework in Frameworks */,
+				4C274EC8192578F50028A759 /* UIKit.framework in Frameworks */,
+				4C274EC7192578F50028A759 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C02D6FD1980BA10000778ED /* Custom SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				4C5115411980A36D00069663 /* MEMSpriteButton.h */,
+				4C5115421980A36D00069663 /* MEMSpriteButton.m */,
+				4C51153E19808F1D00069663 /* MEMMenuScene.h */,
+				4C51153F19808F1D00069663 /* MEMMenuScene.m */,
+			);
+			name = "Custom SuperClass";
+			sourceTree = "<group>";
+		};
+		4C18E62C192AA85F00D808C8 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				4C18E628192A9EBD00D808C8 /* BoulderDust.sks */,
+				4C18E629192A9EBD00D808C8 /* spark.png */,
+				4C0D352C192A845E00E18724 /* Gold.sks */,
+				4C0D352D192A845E00E18724 /* spark.png */,
+				4C7EDDD1197305E9004E6C92 /* explosion.sks */,
+			);
+			name = Particles;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4C274E93192578F50028A759 = {
+			isa = PBXGroup;
+			children = (
+				4C5DDDB91935181300D913FA /* Chartboost */,
+				4C7F12131981571C0045F3B7 /* MenuScenes */,
+				4C02D6FD1980BA10000778ED /* Custom SuperClass */,
+				4C5A0CAA1981941800E01CDD /* Helper Classes */,
+				4C274EA7192578F50028A759 /* TopDrop */,
+				4C274ECB192578F50028A759 /* TopDropTests */,
+				4C274E9E192578F50028A759 /* Frameworks */,
+				4C274E9D192578F50028A759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C274E9D192578F50028A759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C274E9C192578F50028A759 /* TopDrop.app */,
+				4C274EC4192578F50028A759 /* TopDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C274E9E192578F50028A759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0A72651987E370000BE53A /* iAd.framework */,
+				4C7EDD8C1971A672004E6C92 /* MediaPlayer.framework */,
+				4C9664CE1957C21600303356 /* Social.framework */,
+				4C5DDDCE193518AC00D913FA /* CoreData.framework */,
+				4C5DDDCC193518A300D913FA /* AVFoundation.framework */,
+				4C5DDDCA1935189A00D913FA /* CoreMedia.framework */,
+				4C5DDDC81935188D00D913FA /* StoreKit.framework */,
+				4C5DDDC61935188300D913FA /* AdSupport.framework */,
+				4C5DDDC41935186900D913FA /* SystemConfiguration.framework */,
+				4C5DDDC21935185800D913FA /* QuartzCore.framework */,
+				4CE81EE119314B0C0065D696 /* GameKit.framework */,
+				4C274E9F192578F50028A759 /* Foundation.framework */,
+				4C274EA1192578F50028A759 /* CoreGraphics.framework */,
+				4C274EA3192578F50028A759 /* UIKit.framework */,
+				4C274EA5192578F50028A759 /* SpriteKit.framework */,
+				4C274EC5192578F50028A759 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C274EA7192578F50028A759 /* TopDrop */ = {
+			isa = PBXGroup;
+			children = (
+				4C274EB0192578F50028A759 /* MEMAppDelegate.h */,
+				4C274EB1192578F50028A759 /* MEMAppDelegate.m */,
+				4CE81EDB1930F3810065D696 /* Model */,
+				4CE81EE01930F3BE0065D696 /* View */,
+				4CE81EDC1930F3960065D696 /* Controller */,
+				4C274EBE192578F50028A759 /* Images.xcassets */,
+				4C5A0CAB1981AAAD00E01CDD /* Art_Assets */,
+				4C274EA8192578F50028A759 /* Supporting Files */,
+			);
+			path = TopDrop;
+			sourceTree = "<group>";
+		};
+		4C274EA8192578F50028A759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C274EA9192578F50028A759 /* TopDrop-Info.plist */,
+				4C274EAA192578F50028A759 /* InfoPlist.strings */,
+				4C274EAD192578F50028A759 /* main.m */,
+				4C274EAF192578F50028A759 /* TopDrop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C274ECB192578F50028A759 /* TopDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C274ED1192578F50028A759 /* TopDropTests.m */,
+				4C274ECC192578F50028A759 /* Supporting Files */,
+			);
+			path = TopDropTests;
+			sourceTree = "<group>";
+		};
+		4C274ECC192578F50028A759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C274ECD192578F50028A759 /* TopDropTests-Info.plist */,
+				4C274ECE192578F50028A759 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5A0CAA1981941800E01CDD /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CE81EE319314C870065D696 /* MEMGameKitHelper.h */,
+				4CE81EE419314C870065D696 /* MEMGameKitHelper.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		4C5A0CAB1981AAAD00E01CDD /* Art_Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4CB13497198AD885001FF62F /* GameObjects.atlas */,
+				4CB13495198AD629001FF62F /* tutorial.atlas */,
+				4C5A0CB81982E0D000E01CDD /* sign.atlas */,
+				4C39F4C019782ED300494CC1 /* tntHud.atlas */,
+				4C44172919756FE600ED0E22 /* TNT.atlas */,
+				4CAAC7AC1937E96C00F64654 /* Sounds */,
+				4CCC78A019299A12005061AE /* rHat.atlas */,
+				4CC80AA2192695F200409536 /* z_r.atlas */,
+				4CB13494198AD4D0001FF62F /* BG_Images */,
+				4C18E62C192AA85F00D808C8 /* Particles */,
+			);
+			name = Art_Assets;
+			sourceTree = "<group>";
+		};
+		4C5DDDB91935181300D913FA /* Chartboost */ = {
+			isa = PBXGroup;
+			children = (
+				4C5DDDBA1935181300D913FA /* CBMoreAppsButton.h */,
+				4C5DDDBB1935181300D913FA /* CHANGELOG.md */,
+				4C5DDDBC1935181300D913FA /* Chartboost.h */,
+				4C5DDDBD1935181300D913FA /* libChartboost.a */,
+				4C5DDDBE1935181300D913FA /* README.md */,
+			);
+			path = Chartboost;
+			sourceTree = "<group>";
+		};
+		4C7F12131981571C0045F3B7 /* MenuScenes */ = {
+			isa = PBXGroup;
+			children = (
+				4C74D0DA1933850800B04D61 /* MEMMainMenuScene.h */,
+				4C74D0DB1933850800B04D61 /* MEMMainMenuScene.m */,
+				4C7F120D198154D00045F3B7 /* MEMGameOverScene.h */,
+				4C7F120E198154D00045F3B7 /* MEMGameOverScene.m */,
+				4C9664CB1957B66600303356 /* MEMShareScene.h */,
+				4C9664CC1957B66600303356 /* MEMShareScene.m */,
+				4C7F1210198157130045F3B7 /* MEMStoreScene.h */,
+				4C7F1211198157130045F3B7 /* MEMStoreScene.m */,
+			);
+			name = MenuScenes;
+			sourceTree = "<group>";
+		};
+		4CAAC7AC1937E96C00F64654 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4CB13492198ACE8A001FF62F /* AxeSound.wav */,
+				4CB13490198ACAA6001FF62F /* ClickSound.wav */,
+				4C2546A51939372D00A52123 /* HatSound.wav */,
+				4C2546A319392E1400A52123 /* NewSwoosh.wav */,
+				4C2546A1193922A100A52123 /* ManSound.wav */,
+				4CAAC7AD1937EB3000F64654 /* RockSound.wav */,
+				4CAAC7AA1937E96500F64654 /* GoldSound.wav */,
+				4CAAC7A81937CF6600F64654 /* GameOverSound.wav */,
+				4C7EDDD319730E7C004E6C92 /* ExplosionSound.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		4CB13494198AD4D0001FF62F /* BG_Images */ = {
+			isa = PBXGroup;
+			children = (
+				4C5DDDDC193639BA00D913FA /* BG_noSign.png */,
+				4C5DDDDD193639BA00D913FA /* BG_noSign@2x.png */,
+				4C274EDB192579C90028A759 /* Artboard 1.png */,
+				4C274EDC192579C90028A759 /* Artboard 1@2x.png */,
+			);
+			name = BG_Images;
+			sourceTree = "<group>";
+		};
+		4CE81EDB1930F3810065D696 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CB06F05192F95E600A029AB /* MEMGameData.h */,
+				4CB06F06192F95E600A029AB /* MEMGameData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4CE81EDC1930F3960065D696 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CE81EE6193153E10065D696 /* MEMTDNavigationControllerViewController.h */,
+				4CE81EE7193153E10065D696 /* MEMTDNavigationControllerViewController.m */,
+				4C274EB6192578F50028A759 /* MEMViewController.h */,
+				4C274EB7192578F50028A759 /* MEMViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4CE81EE01930F3BE0065D696 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C274EB9192578F50028A759 /* MEMMyScene.h */,
+				4C274EBA192578F50028A759 /* MEMMyScene.m */,
+				4C2F60A0197EDFB6005977DA /* MEMTutorialScene.h */,
+				4C2F60A1197EDFB6005977DA /* MEMTutorialScene.m */,
+				4C274EB3192578F50028A759 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C274E9B192578F50028A759 /* TopDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C274ED5192578F50028A759 /* Build configuration list for PBXNativeTarget "TopDrop" */;
+			buildPhases = (
+				4C274E98192578F50028A759 /* Sources */,
+				4C274E99192578F50028A759 /* Frameworks */,
+				4C274E9A192578F50028A759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopDrop;
+			productName = TopDrop;
+			productReference = 4C274E9C192578F50028A759 /* TopDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C274EC3192578F50028A759 /* TopDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C274ED8192578F50028A759 /* Build configuration list for PBXNativeTarget "TopDropTests" */;
+			buildPhases = (
+				4C274EC0192578F50028A759 /* Sources */,
+				4C274EC1192578F50028A759 /* Frameworks */,
+				4C274EC2192578F50028A759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C274ECA192578F50028A759 /* PBXTargetDependency */,
+			);
+			name = TopDropTests;
+			productName = TopDropTests;
+			productReference = 4C274EC4192578F50028A759 /* TopDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C274E94192578F50028A759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MEM;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michael McCafferty";
+				TargetAttributes = {
+					4C274E9B192578F50028A759 = {
+						DevelopmentTeam = 5JJ2GJ675W;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					4C274EC3192578F50028A759 = {
+						TestTargetID = 4C274E9B192578F50028A759;
+					};
+				};
+			};
+			buildConfigurationList = 4C274E97192578F50028A759 /* Build configuration list for PBXProject "topdrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C274E93192578F50028A759;
+			productRefGroup = 4C274E9D192578F50028A759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C274E9B192578F50028A759 /* TopDrop */,
+				4C274EC3192578F50028A759 /* TopDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C274E9A192578F50028A759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7EDDD419730E7C004E6C92 /* ExplosionSound.wav in Resources */,
+				4C2546A61939372D00A52123 /* HatSound.wav in Resources */,
+				4C18E62A192A9EBD00D808C8 /* BoulderDust.sks in Resources */,
+				4CAAC7AB1937E96500F64654 /* GoldSound.wav in Resources */,
+				4CB13491198ACAA6001FF62F /* ClickSound.wav in Resources */,
+				4C39F4C119782ED300494CC1 /* tntHud.atlas in Resources */,
+				4C5DDDBF1935181300D913FA /* CHANGELOG.md in Resources */,
+				4C274EAC192578F50028A759 /* InfoPlist.strings in Resources */,
+				4C2546A2193922A100A52123 /* ManSound.wav in Resources */,
+				4C274EBF192578F50028A759 /* Images.xcassets in Resources */,
+				4CB13498198AD885001FF62F /* GameObjects.atlas in Resources */,
+				4C0D352E192A845E00E18724 /* Gold.sks in Resources */,
+				4C274EDD192579C90028A759 /* Artboard 1.png in Resources */,
+				4C274EDE192579C90028A759 /* Artboard 1@2x.png in Resources */,
+				4C5A0CB91982E0D000E01CDD /* sign.atlas in Resources */,
+				4CAAC7AE1937EB3000F64654 /* RockSound.wav in Resources */,
+				4CB13496198AD629001FF62F /* tutorial.atlas in Resources */,
+				4C7EDDD2197305E9004E6C92 /* explosion.sks in Resources */,
+				4C5DDDC11935181400D913FA /* README.md in Resources */,
+				4C274EB5192578F50028A759 /* Main.storyboard in Resources */,
+				4C18E62B192A9EBD00D808C8 /* spark.png in Resources */,
+				4CAAC7A91937CF6600F64654 /* GameOverSound.wav in Resources */,
+				4C44172A19756FE600ED0E22 /* TNT.atlas in Resources */,
+				4CCC78A119299A12005061AE /* rHat.atlas in Resources */,
+				4CC80AA3192695F200409536 /* z_r.atlas in Resources */,
+				4C5DDDDE193639BA00D913FA /* BG_noSign.png in Resources */,
+				4CB13493198ACE8A001FF62F /* AxeSound.wav in Resources */,
+				4C2546A419392E1400A52123 /* NewSwoosh.wav in Resources */,
+				4C5DDDDF193639BA00D913FA /* BG_noSign@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C274EC2192578F50028A759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C274ED0192578F50028A759 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C274E98192578F50028A759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7F121719818A4A0045F3B7 /* MEMMainMenuScene.m in Sources */,
+				4CE81EE8193153E10065D696 /* MEMTDNavigationControllerViewController.m in Sources */,
+				4C274EB8192578F50028A759 /* MEMViewController.m in Sources */,
+				4C7F1212198157130045F3B7 /* MEMStoreScene.m in Sources */,
+				4C2F60A2197EDFB6005977DA /* MEMTutorialScene.m in Sources */,
+				4C274EB2192578F50028A759 /* MEMAppDelegate.m in Sources */,
+				4CE81EE519314C870065D696 /* MEMGameKitHelper.m in Sources */,
+				4C9664CD1957B66600303356 /* MEMShareScene.m in Sources */,
+				4C5115431980A36D00069663 /* MEMSpriteButton.m in Sources */,
+				4C51154019808F1D00069663 /* MEMMenuScene.m in Sources */,
+				4C274EBB192578F50028A759 /* MEMMyScene.m in Sources */,
+				4C7F120F198154D00045F3B7 /* MEMGameOverScene.m in Sources */,
+				4C274EAE192578F50028A759 /* main.m in Sources */,
+				4CB06F07192F95E600A029AB /* MEMGameData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C274EC0192578F50028A759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C274ED2192578F50028A759 /* TopDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C274ECA192578F50028A759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C274E9B192578F50028A759 /* TopDrop */;
+			targetProxy = 4C274EC9192578F50028A759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C274EAA192578F50028A759 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C274EAB192578F50028A759 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C274EB3192578F50028A759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C274EB4192578F50028A759 /* Base */,
+				4CDB2502192BA92F000644CD /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C274ECE192578F50028A759 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C274ECF192578F50028A759 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C274ED3192578F50028A759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C274ED4192578F50028A759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C274ED6192578F50028A759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopDrop/TopDrop-Prefix.pch";
+				INFOPLIST_FILE = "TopDrop/TopDrop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chartboost",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.${PRODUCT_NAME:rfc1034identifier}Games.TopDrop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C274ED7192578F50028A759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopDrop/TopDrop-Prefix.pch";
+				INFOPLIST_FILE = "TopDrop/TopDrop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chartboost",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.${PRODUCT_NAME:rfc1034identifier}Games.TopDrop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C274ED9192578F50028A759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopDrop.app/TopDrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopDrop/TopDrop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TopDropTests/TopDropTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C274EDA192578F50028A759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopDrop.app/TopDrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopDrop/TopDrop-Prefix.pch";
+				INFOPLIST_FILE = "TopDropTests/TopDropTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C274E97192578F50028A759 /* Build configuration list for PBXProject "topdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C274ED3192578F50028A759 /* Debug */,
+				4C274ED4192578F50028A759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C274ED5192578F50028A759 /* Build configuration list for PBXNativeTarget "TopDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C274ED6192578F50028A759 /* Debug */,
+				4C274ED7192578F50028A759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C274ED8192578F50028A759 /* Build configuration list for PBXNativeTarget "TopDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C274ED9192578F50028A759 /* Debug */,
+				4C274EDA192578F50028A759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C274E94192578F50028A759 /* Project object */;
+}
